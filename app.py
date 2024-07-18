@@ -4,7 +4,7 @@ app=Flask(__name__)
 
 def home():
     return render_template("login2.html")
-database={'Ram' : 'Ram@123', 'Raj' : 'Raj@123', 'Ravi' : 'Ravi@123'}
+database={'Harish':'Harish@123'}
 @app.route('/form_login', methods=['POST','GET'])
 def form_login():
     if request.method=='POST':
